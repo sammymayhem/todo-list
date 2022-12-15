@@ -1,8 +1,10 @@
 import React from "react";
 
+import '../styles/Header.css';
+
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             To Do List
         </header>
     );
